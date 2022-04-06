@@ -43,7 +43,7 @@ const buscarCategorias = async (termino = '', res = response) => {
 
     const regex = new RegExp( termino, 'i' );
 
-    const categorias = await Producto.find({ 
+    const categorias = await Categoria.find({ 
         $and: [{ nombre: regex }, { estado: true }]
     });
 
