@@ -3,7 +3,8 @@ const paths = {
     categoriasPath: '/api/categorias',
     usuariosPath: '/api/usuarios',
     productosPath: '/api/productos',
-    buscarPath: '/api/buscar'
+    buscarPath: '/api/buscar',
+    uploadsPath: '/api/uploads'
 }
 
 module.exports = paths;
